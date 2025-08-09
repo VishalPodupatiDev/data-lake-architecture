@@ -1,0 +1,21 @@
+# AWS Configuration
+aws_region = "us-east-1"
+account_id = "958923398975"  # Replace with your AWS Account ID
+
+# Environment Configuration
+environment = "dev"
+project_name = "data-lake-demo"
+
+# VPC Configuration
+vpc_cidr = "10.0.0.0/16"
+availability_zones = ["us-east-1a", "us-east-1b"]
+private_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24"]
+public_subnet_cidrs = ["10.0.101.0/24", "10.0.102.0/24"]
+
+# Redshift Configuration
+redshift_cluster_type = "dc2.large"
+redshift_node_count = 2
+
+# EMR Configuration
+emr_instance_type = "m5.xlarge"
+emr_instance_count = 3
